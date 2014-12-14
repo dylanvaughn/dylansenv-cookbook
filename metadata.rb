@@ -9,3 +9,4 @@ supports "ubuntu"
 
 depends "apt"
 depends "git"
+depends "ntp"

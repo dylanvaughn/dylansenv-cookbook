@@ -1,6 +1,7 @@
 
 include_recipe "apt"
 include_recipe "git"
+include_recipe "ntp"
 
 software_dir = node["dylansenv"]["software_dir"]
 local_user   = node["dylansenv"]["local_user"]
